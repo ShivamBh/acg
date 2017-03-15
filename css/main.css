@@ -1,0 +1,157 @@
+/* IMPORTS  */
+
+
+/*  END IMPORTS  */
+
+
+/*BASE STYLES*/
+
+html {
+    color: #111;
+    font-size: 1em;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility !important;
+
+    -webkit-font-smoothing: subpixel-antialiased !important;
+
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/*END BASE STYLES*/
+
+/* NAV STYLES */
+
+.top_header {
+	height: 12vh;
+	background-color: coral;
+	position: relative;
+}
+
+.header_wrap {
+	height: 100%;
+	width: 80vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: lightcoral;
+}
+
+.logo_wrap {
+	height: 9vh;
+	width: 9vh;
+	background-color: black;
+	align-self: center;
+}
+
+.logo {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-image: url('../img/ACG_logo.svg');
+	background-size: cover;
+}
+
+.navigation_wrap {
+
+	align-self: center;
+}
+
+.nav_menu {
+	padding: 10px;
+}
+
+.nav_links {
+	padding: 15px;
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+}
+
+
+.social_wrap {
+	height: 100%;
+	width: 10vw;
+	top: 0;
+	right: 0;
+	background-color: blue;
+	position: absolute;
+}
+
+.social_links {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.social_icon {
+	display: inline-block;
+	text-decoration: none;
+	height: 3vw;
+	width: 3vw;
+	align-self: center;
+	background-color: red;
+}
+
+
+/*END NAV STYLES*/
