@@ -84,24 +84,24 @@ h1, h2, h3, h4, h5, h6 {
 /* NAV STYLES */
 
 .top_header {
-	height: 12vh;
-	background-color: coral;
+	height: 10vh;
+	/*background-color: coral;*/
 	position: relative;
 }
 
 .header_wrap {
 	height: 100%;
-	width: 80vw;
+	width: 90vw;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	background-color: lightcoral;
+	/*background-color: lightcoral;*/
 }
 
 .logo_wrap {
-	height: 9vh;
-	width: 9vh;
-	background-color: black;
+	height: 7vh;
+	width: 7vh;
+	/*background-color: black;*/
 	align-self: center;
 }
 
@@ -114,28 +114,55 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation_wrap {
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	align-self: center;
 }
 
 .nav_menu {
-	padding: 10px;
+	margin: 10px;
 }
 
 .nav_links {
-	padding: 15px;
+	position: relative;
+	display: inline-block;
+	margin: 15px;
+	padding: 5px;
 	font-family: 'Merriweather', serif;
+	font-size: 0.9em;
 	text-decoration: none;
+	font-weight: 700;
+	color: #757575;
+	text-transform: uppercase;
 }
 
+.nav_links:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background: #111;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: 0.2s ease-in;
+}
+
+.nav_links:hover:after,
+.nav_links:focus:after {
+	visibility: visible;
+	transform: scaleX(1);
+}
 
 .social_wrap {
 	height: 100%;
 	width: 10vw;
 	top: 0;
 	right: 0;
-	background-color: blue;
-	position: absolute;
+	/*background-color: blue;*/
+	
 }
 
 .social_links {
@@ -144,14 +171,260 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: center;
 }
 
+
 .social_icon {
 	display: inline-block;
 	text-decoration: none;
-	height: 3vw;
-	width: 3vw;
+	height: 1.5vw;
+	width: 1.5vw;
 	align-self: center;
-	background-color: red;
+	
+}
+
+.facebook {
+	margin-right: 5px;
+	
+}
+
+.facebook:hover {
+	background-color: #8b9dc3;
+}
+
+.instagram {
+	margin-right: 5px;
+	
+}
+
+.instagram:hover {
+	background: #fccc63;
+}
+
+.linkedin {
+	
+}
+
+.linkedin:hover {
+	background: #007bb5;
 }
 
 
+
 /*END NAV STYLES*/
+
+/*HOME STYLES*/
+
+.home_bg {
+	background-image: url('../img/home_bg.png');
+	background-size: cover;
+}
+
+/*END HOME STYLES*/
+
+/*ABOUT STYLES*/
+
+.about_content {
+	height: 90vh;
+	width: 90vw;
+	margin: 0 auto;
+	position: relative;
+	background: lightcoral;
+}
+
+.about_banner {
+	position: relative;
+	
+}
+
+.banner_1 {
+	width: 447px;
+	height: 238px;
+	background-image: url('../img/800_1.png');
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+
+.banner_2 {
+	width: 353px;
+	height: 238px;
+	background-image: url('../img/800_2.png');
+	position: absolute;
+	top: 0;
+	left: 647px;
+
+}
+
+.banner_3 {
+	width: 447px;
+	height: 325px;
+	background-image: url('../img/800_3.png');
+	position: absolute;
+	top: 238px;
+	left: 200px;
+}
+
+.banner_4 {
+	width: 353px;
+	height: 325px;
+	background-image: url('../img/800_4.png');
+	position: absolute;
+	top: 238px;
+	left: 647px;
+}
+
+.about_text {
+	width: 60%;
+	position: absolute;
+}
+
+.about_text h1 {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+.about_text h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 500;
+	font-size: 1.3em;
+}
+
+/*END ABOUT STYLES*/
+
+/*PRODUCT STYLES*/
+
+.products_content {
+	width: 100%;
+	overflow-x: hidden;
+	
+}
+
+.products_menu {
+	height: 90vh;
+	width: 5vw;
+	
+	position: fixed;
+	
+}
+
+.pr_list {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin:0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+}
+
+.pr_list_item {
+	width: 100%;
+	display: block;
+	padding: 2px;
+	list-style: none;
+	transform: rotateZ(-90deg);
+}
+
+.pr_list_item a {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	font-size: 0.85em;
+	line-height: 1.1;
+	font-weight: bold;
+	color: #757575;
+}
+
+.products_wrapper {
+	width: 90vw;
+	position: relative;
+	left: 5vw;
+}
+
+.pr_intro {
+	height: 90vh;
+	width: 100%;
+	position: relative;
+}
+
+.pr_intro .intro_text {
+	padding: 20px;
+	position: absolute;
+	bottom: 30px;
+	right: 50px;
+	z-index: 3;
+	width: 60%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.pr_intro .intro_text h1 {
+	font-family: 'Lora', serif;
+	font-size: 2em;
+	line-height: 1.1;
+	color: #DEDBDB;
+	font-weight: 500;
+}
+
+.pr_intro .intro_overlay {
+	height: 85vh;
+	width: 100%;
+	background-color: #111;
+	opacity: 0.65;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.pr_intro .intro_image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 85vh;
+	width: 100%;
+	/*background-image: url('../img/carpet_work.png');
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+.pr_intro .intro_image img {
+	height: 100%;
+	width: 100%;
+}
+
+.pr_garments {
+	background-color: #999;
+	min-height: 100vh;
+	width: 100vw;
+	
+}
+
+.pr_carpets {
+	
+	width: 100vw;
+	
+}
+
+.pr_shawls {
+	
+	width: 100vw;
+	
+}
+
+.pr_stoles {
+	
+	width: 100vw;
+	
+}
+
+.pr_furnish {
+	
+	width: 100vw;
+	
+}
+
+
+/*END PRODUCT STYLES*/
