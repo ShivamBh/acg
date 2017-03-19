@@ -330,6 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 5px;
 	text-decoration: none;
 	text-transform: uppercase;
+	text-align: center;
 	font-family: 'Merriweather', serif;
 	font-size: 0.85em;
 	line-height: 1.1;
@@ -395,12 +396,126 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
+
+
 .pr_garments {
-	background-color: #999;
+	background-color: #E5E0E0;
 	min-height: 100vh;
-	width: 100vw;
+	width: 90vw;
 	
 }
+
+.pr_container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.pr_header {
+	padding: 10vh 0 2vh 8vw;
+}
+
+.pr_header h2 {
+	font-family: 'Lora', serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.garment_row {
+	padding: 2vh 0 2vh 0;
+	display: flex;
+}
+
+.gar_row_1 {
+	justify-content: center;
+}
+
+.gar_row_2 {
+	justify-content: space-around;
+}
+
+.gar_row_3 {
+	justify-content: center;
+}
+
+.pr_text {
+	padding-top: 3vh;
+	width: 35vw;
+}
+
+.pr_text p {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.garment_img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.gar_img {
+	height: 100%;
+	
+}
+
+.gar_img_1 {
+	height: 220px;
+	width: 270px;
+	margin-right: 40px; 
+	background-color: #c7b29a;
+	/*top: 20vh;
+	left: 12vw;*/
+	align-self: center;
+}
+
+.gar_img_2 {
+	height: 260px;
+	width: 250px;
+	margin-right: 40px; 
+	background-color: #9ebfb1;
+	/*top: 18vh;
+	left: 36vw;*/
+	align-self: flex-start;
+}
+
+.gar_img_3 {
+	height: 220px;
+	width: 350px;
+	background-color: #c4d39d;
+	align-self: flex-end;
+}
+
+.gar_img_4 {
+	height: 250px;
+	width: 400px;
+	background-color: #858caa;
+}
+
+.gar_img_5 {
+	height: 320px;
+	width: 250px;
+	margin-right: 40px; 
+	background-color: #a6a6a6;
+}
+
+.gar_img_6 {
+	height: 330px;
+	width: 250px;
+	margin-top: 20px;
+	margin-right: 40px; 
+	background-color: #d7c9a0;
+}
+
+.gar_img_7 {
+	height: 300px;
+	width: 250px;
+	background-color: #c7bacb;
+}
+
+
 
 .pr_carpets {
 	
