@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .top_header {
 	height: 10vh;
-	/*background-color: coral;*/
+	background-color: #ececec;
 	position: relative;
 }
 
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	/*background-color: lightcoral;*/
+	
 }
 
 .logo_wrap {
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 0.9em;
 	text-decoration: none;
 	font-weight: 700;
-	color: #757575;
+	color: #4B3D3D;
 	text-transform: uppercase;
 }
 
@@ -224,70 +224,49 @@ h1, h2, h3, h4, h5, h6 {
 
 .about_content {
 	height: 90vh;
-	width: 90vw;
+	width: 100vw;
 	margin: 0 auto;
 	position: relative;
-	background: lightcoral;
+	background: #ececec;
 }
 
-.about_banner {
-	position: relative;
-	
-}
-
-.banner_1 {
-	width: 447px;
-	height: 238px;
-	background-image: url('../img/800_1.png');
-	position: absolute;
-	top: 0;
-	left: 200px;
-}
-
-.banner_2 {
-	width: 353px;
-	height: 238px;
-	background-image: url('../img/800_2.png');
-	position: absolute;
-	top: 0;
-	left: 647px;
+.about_wrapper {
+	height: 100%;
+	width: 100%;
 
 }
 
-.banner_3 {
-	width: 447px;
-	height: 325px;
-	background-image: url('../img/800_3.png');
-	position: absolute;
-	top: 238px;
-	left: 200px;
-}
-
-.banner_4 {
-	width: 353px;
-	height: 325px;
-	background-image: url('../img/800_4.png');
-	position: absolute;
-	top: 238px;
-	left: 647px;
+.about_intro {
+	padding: 40px 0 40px 0;
+	width: 100%;
+	height: 45vh;
+	background-image: url('../img/about_fog.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .about_text {
-	width: 60%;
-	position: absolute;
+	padding-top: 15px;
+	width: 70vw;
+	margin: 0 auto;
 }
 
 .about_text h1 {
-	font-family: 'Lora', serif;
-	font-weight: bold;
-	font-size: 1.8em;
+	font-size: 1.1em;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	text-align: justify;
 }
 
-.about_text h3 {
-	font-family: 'Libre Baskerville', serif;
-	font-weight: 500;
-	font-size: 1.3em;
+.about_art {
+
+	height: 40vh;
+	background-image: url('../img/about_figures.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+
 
 /*END ABOUT STYLES*/
 
