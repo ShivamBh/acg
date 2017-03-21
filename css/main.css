@@ -473,6 +473,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carpets_text {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
 	bottom: 100px;
 	left: 40vw;
 }
@@ -489,14 +491,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .shawl_img_1 {
+	background-color: #707070;
 	margin-top: 100px;
 	height: 400px;
 	width: 380px;
 }
 
 .shawl_img_2 {
-	height: 380px;
+	background-color: #b6ab95;
+	height: 400px;
 	width: 380px;
+}
+
+.shawl_img_3 {
+	background-color: #81a082;
+}
+
+.shawl_img_4 {
+	background-color: #dfe0cb;
+}
+
+.shawl_img_5 {
+	background-color: #abd5b7;
+}
+
+.shawl_img_6 {
+	background-color: #cae7bc;
+}
+
+.shawl_img_7 {
+	background-color: #d1d1d1;
+}
+
+.shawl_img_8 {
+	background-color: #d1d1d1;
+}
+
+.shawl_img_9 {
+	background-color: #d1d1d1;
+}
+
+.shawl_img_10 {
+	background-color: #d1d1d1;
 }
 
 .row2_img_shawl {
@@ -506,7 +542,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .shawls_text {
-	bottom: 60px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+	bottom: 30px;
 	left: 40vw;
 }
 
@@ -516,21 +554,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scar_text {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
 	bottom: 30px;
 	left: 40vw;
 }
 
 .stole_img_1 {
+	background-color: #a2bd8e;
 	margin-top: 70px;
 	height: 360px;
 	width: 300px;
 }
 
 .stole_img_2 {
+	background-color: #8fb49e;
 	height: 360px;
 	width: 360px;
 }
 
+.stole_img_3 {
+	background-color: #d1ca8f;
+}
+
+.stole_img_4 {
+	background-color: #9a9fab;
+}
+
+.stole_img_5 {
+	background-color: #d7b29a;
+}
+
+
+.stole_img_7 {
+	background-color: #b4b3ad;
+}
 .row2_img_scar {
 	margin: 20px;
 	height: 360px;
@@ -543,24 +601,77 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fur_img_1 {
+	background-color: #cfbacf;
 	margin-top: 100px;
 	height: 420px;
 	width: 420px;
 }
 
 .fur_img_2 {
+	background-color: #b5c3c8;
 	height: 400px;
 	width: 400px;
 }
 
+.fur_img_3 {
+	background-color: #b5b5b5;
+}
+
+.fur_img_4 {
+	background-color: #c4d39d;
+}
+
+.fur_img_5 {
+	background-color: #b5c3c8;
+}
+
+.fur_img_6 {
+	background-color: #acba9d;
+}
+
+.fur_img_7 {
+	background-color: #c4d39d;
+}
+
+.fur_img_8 {
+	background-color: #a57f8e;
+}
+
+.fur_img_9 {
+	background-color: #b59f83;
+}
+
+.fur_img_10 {
+	background-color: #acba9d;
+}
+
+.fur_img_11 {
+	background-color: #b5b5b5;
+}
+
+.fur_img_12 {
+	background-color: #c4d39d;
+}
+
+.fur_img_2 {
+	background-color: #cfbacf;
+}
+
+.fur_img_2 {
+	background-color: #c4d39d;
+}
+
 .fur_text {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
 	bottom: 30px;
 	left: 40vw;
 }
 
 .row2_img_fur {
-	height: 360px;
-	width: 400px;
+	margin: 20px;
+	height: 320px;
+	width: 360px;
 }
 
 .jack_img {
@@ -569,27 +680,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jack_text {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
 	bottom: 30px;
 	left: 40vw;
 }
 
 
 .jack_img_1 {
+	background-color: #9ebfb1;
 	margin-top: 60px;
 	height: 520px;
 	width: 400px;
 }
 
 .jack_img_2 {
-	
+	background-color: #858ca1;
 	height: 470px;
-	width: 360px;
+	width: 420px;
+}
+
+.jack_img_3 {
+	
+	background-color: #c7b29a;
+}
+
+.jack_img_4 {
+	
+	background-color: #a6a6a6;
 }
 
 .row2_img_jack {
 	margin: 20px;
 	height: 470px;
 	width: 360px;
+}
+
+.row1_img, 
+.row2_img_fur,
+.row2_img_jack,
+.row2_img_scar,
+.row2_img_shawl,
+.row2_img_car,
+.row1_img,
+.row1_img_jack 
+ {
+	box-shadow: 4px 3px 16px 2px rgba(66,65,66,1);
 }
 
 
