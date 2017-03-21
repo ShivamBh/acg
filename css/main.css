@@ -1,4 +1,4 @@
-/* IMPORTS  */
+ IMPORTS  */
 
 
 /*  END IMPORTS  */
@@ -275,52 +275,12 @@ h1, h2, h3, h4, h5, h6 {
 .products_content {
 	width: 100%;
 	overflow-x: hidden;
-	
-}
-
-.products_menu {
-	height: 90vh;
-	width: 5vw;
-	
-	position: fixed;
-	
-}
-
-.pr_list {
-	height: 100%;
-	width: 100%;
-	padding: 0;
-	margin:0;
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: space-around;
-}
-
-.pr_list_item {
-	width: 100%;
-	display: block;
-	padding: 2px;
-	list-style: none;
-	transform: rotateZ(-90deg);
-}
-
-.pr_list_item a {
-	display: inline-block;
-	padding: 5px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Merriweather', serif;
-	font-size: 0.85em;
-	line-height: 1.1;
-	font-weight: bold;
-	color: #757575;
+	background-color: #ececec;
 }
 
 .products_wrapper {
 	width: 90vw;
-	position: relative;
-	left: 5vw;
+	margin: 0 auto;
 }
 
 .pr_intro {
@@ -341,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pr_intro .intro_text h1 {
 	font-family: 'Lora', serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 1.1;
 	color: #DEDBDB;
 	font-weight: 500;
@@ -376,14 +336,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-.pr_garments {
-	background-color: #E5E0E0;
-	min-height: 100vh;
-	width: 90vw;
-	
-}
-
 .pr_container {
 	height: 100%;
 	width: 100%;
@@ -400,125 +352,112 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 2em;
 }
 
-.garment_row {
-	padding: 2vh 0 2vh 0;
-	display: flex;
-}
-
-.gar_row_1 {
-	justify-content: center;
-}
-
-.gar_row_2 {
-	justify-content: space-around;
-}
-
-.gar_row_3 {
-	justify-content: center;
-}
-
-.pr_text {
-	padding-top: 3vh;
-	width: 35vw;
-}
-
-.pr_text p {
-	font-family: 'Libre Baskerville', serif;
-	font-weight: 400;
-	font-size: 1.1em;
-}
-
-.garment_img {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.pr_garments {
+	background-color: #ececec;
+	min-height: 100vh;
+	width: 90vw;
 	
 }
-
-.gar_img {
-	height: 100%;
-	
-}
-
-.gar_img_1 {
-	height: 220px;
-	width: 270px;
-	margin-right: 40px; 
-	background-color: #c7b29a;
-	/*top: 20vh;
-	left: 12vw;*/
-	align-self: center;
-}
-
-.gar_img_2 {
-	height: 260px;
-	width: 250px;
-	margin-right: 40px; 
-	background-color: #9ebfb1;
-	/*top: 18vh;
-	left: 36vw;*/
-	align-self: flex-start;
-}
-
-.gar_img_3 {
-	height: 220px;
-	width: 350px;
-	background-color: #c4d39d;
-	align-self: flex-end;
-}
-
-.gar_img_4 {
-	height: 250px;
-	width: 400px;
-	background-color: #858caa;
-}
-
-.gar_img_5 {
-	height: 320px;
-	width: 250px;
-	margin-right: 40px; 
-	background-color: #a6a6a6;
-}
-
-.gar_img_6 {
-	height: 330px;
-	width: 250px;
-	margin-top: 20px;
-	margin-right: 40px; 
-	background-color: #d7c9a0;
-}
-
-.gar_img_7 {
-	height: 300px;
-	width: 250px;
-	background-color: #c7bacb;
-}
-
-
 
 .pr_carpets {
-	
-	width: 100vw;
+	background-color: #ececec;
+	min-height: 100vh;
+	width: 90vw;
 	
 }
 
 .pr_shawls {
-	
-	width: 100vw;
+	background-color: #ececec;
+	min-height: 100vh;
+	width: 90vw;
 	
 }
 
 .pr_stoles {
-	
-	width: 100vw;
+	background-color: #ececec;
+	min-height: 100vh;
+	width: 90vw;
 	
 }
 
 .pr_furnish {
-	
-	width: 100vw;
+	background-color: #ececec;
+	min-height: 100vh;
+	width: 90vw;
 	
 }
+
+.pr_jackets {
+	background-color: #ececec;
+	min-height: 100vh;
+	width: 90vw;
+	
+}
+
+	/*products general */
+
+.gar_img {
+	height: 100%;
+	width: 100%;
+}
+
+.row_1 {
+	min-height: 40vh;
+	/*background-color: coral;*/
+	position: relative;
+}
+
+.row1_flex {
+	height: 100%;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.pr_text {
+	margin: 30px;
+	width: 40vw;
+	position: relative;
+}
+
+.row_2 {
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+	/*end products general*/
+
+.gar_img_1, 
+.gar_img_2 {
+	height: 450px;
+	width: 300px;
+}
+
+.gar_img_1 {
+	margin-top: 100px;
+}
+
+.garments_text {
+	bottom: 30px;
+	left: 40vw;
+}
+
+.garments_text h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1em;
+}
+
+.row2_img {
+	margin: 20px;
+	height: 450px;
+	width: 300px;
+}
+
+
 
 
 /*END PRODUCT STYLES*/
@@ -636,4 +575,4 @@ textarea {
 }
 
 
-/*END CONTACT STYLES*/
+/*END CONTACT STYLES
