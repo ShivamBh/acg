@@ -488,6 +488,11 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
+.scar_text {
+	bottom: 30px;
+	left: 40vw;
+}
+
 .stole_img_1 {
 	margin-top: 70px;
 	height: 360px;
@@ -502,6 +507,55 @@ h1, h2, h3, h4, h5, h6 {
 .row2_img_scar {
 	margin: 20px;
 	height: 360px;
+	width: 360px;
+}
+
+.fur_img {
+	height: 100%;
+	width: 100%;
+}
+
+.fur_img_1 {
+	margin-top: 100px;
+	height: 420px;
+	width: 420px;
+}
+
+.fur_img_2 {
+	height: 400px;
+	width: 400px;
+}
+
+.fur_text {
+	bottom: 30px;
+	left: 40vw;
+}
+
+.row2_img_fur {
+	height: 360px;
+	width: 400px;
+}
+
+.jack_img {
+	height: 100%;
+	width: 100%;
+}
+
+.jack_img_1 {
+	margin-top: 60px;
+	height: 520px;
+	width: 400px;
+}
+
+.jack_img_2 {
+	
+	height: 470px;
+	width: 360px;
+}
+
+.row2_img_jack {
+	margin: 20px;
+	height: 470px;
 	width: 360px;
 }
 
